@@ -57,8 +57,7 @@ h2 {
 .hero {
     height: 60vh;
     padding: 10px;
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, lightyellow 0%, yellow 100%);
+    background-image: linear-gradient(45deg, rgba(129, 129, 58, 0.9) 0%, rgb(255, 255, 0, 0.9) 100%),url("https://images.all-free-download.com/images/graphicwebp/background_coloured_green_236164.webp");
 }
 
 .hero-content {
@@ -83,7 +82,7 @@ h2 {
     box-shadow: rgb(80, 80, 80) 0px 7px 19px 0px;
 }
 
-a:hover {
+.nav:hover {
     color: #000;
     background-color: yellow;
 }
